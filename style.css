@@ -4,8 +4,10 @@ body {
   }
 
 .header {
+    font-size: 24px;
+    color: #f9faf8;
     display: flex;
-    padding-left: 100px;
+    padding-left: 200px;
     padding-top: 13px;
 }
 
@@ -16,15 +18,16 @@ body {
 
 .container2 {
     display: flex;
-    padding-left: 100px;
-
+    padding: 150px 200px 150px 200px;
 }
 
 .right-links {
+    font-size: 18px;
+    color: #e5e7eb;
     display: flex;
     margin-left: auto;
     gap: 15px;
-    padding-right: 100px;
+    padding-right: 200px;
 }
 
 .container2, .container1 {
@@ -39,7 +42,98 @@ body {
 }
 
 img {
-    width: 400px;
+    width: 300px;
+}
+
+.malta {
+    display: flex;
+    margin-left: auto;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border: none;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 200px 150px 200px;
+    gap: 30px;
+    text-align: center;
+}
+
+.container3 {
+    padding-top: 150px;
+}
+
+.text11 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container4 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+
+}
+
+.quote {
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.author {
+    text-align: end;
+    padding-right: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 100px 200px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+
+.title3 {
+    display: flex;
+    font-weight: bold;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.button2 {
+    display: flex;
+    margin-left: auto;
+    padding: 10px 20px;
+    border: solid white 1px;
 }
 
 a {
@@ -52,15 +146,14 @@ ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-  }
-
-
-
+}
 
 
 .footer {
     background-color: #1f2937;
+    color: #f9faf8;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 0;
 }
